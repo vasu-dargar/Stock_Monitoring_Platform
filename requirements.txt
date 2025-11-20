@@ -1,0 +1,2 @@
+django-environ==0.12.0
+mysql-connector-python @ file:///C:/Users/dev-admin/buildout/croot/mysql-connector-python_1760005180982/work/mysql-connector-python
