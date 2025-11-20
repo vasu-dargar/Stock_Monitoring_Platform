@@ -1,6 +1,6 @@
-# STOCK MONITORING APPLICATION
+# STOCK MONITORING APPLICATION (Django based)
 
-A real-time stock monitoring platform designed for multiple users, enabling them to track market data, analyze trends, and manage watchlists with secure, role-based access.
+A real-time stock monitoring platform designed for multi-users, enabling to track market stocks' data, and manage watchlists with secure and role-based access.
 
 REQUIREMENTS ->
 
