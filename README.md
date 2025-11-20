@@ -4,17 +4,15 @@ A real-time stock monitoring platform designed for multiple users, enabling them
 
 REQUIREMENTS ->
 
-   1 - Create a Virtual environment (python3.8 +)
+   1 - Create a virtual environment (python3.8 +)
+      
       mkvirtualenv --python=/usr/bin/python3.8 myenv
-
-      OR
-
-     - Create conda environment (python3.8 +)
-       conda create --name myenv python=3.8
 
    2 - Install MySQL Server & Client
    
-   3 - Execute setup_requirements.sh to install all necessary requirements
+   3 - Install all necessary requirements (Run below mentioned command on terminal)
+      
+      ./setup_requirements.sh
 
 PROCESS TO LOAD WEB APPLICATION (on localhost -> http://127.0.0.1:8000/) ->
 
@@ -23,10 +21,11 @@ PROCESS TO LOAD WEB APPLICATION (on localhost -> http://127.0.0.1:8000/) ->
       Username - root
       Password - PASSWORD_OF_CHOICE (Type it in .env file under project_stock directory)
    
-   2- Run command 'py manage.py migrate' in terminal
-
-   3- Run command 'py manage.py runserver' in terminal
+   2- Run the following in terminal -
    
-   4- Open any web browser and go to 'http://127.0.0.1:8000/'
+      py manage.py migrate
+      py manage.py runserver
    
-   5- Use the application
+   3- Open any web browser and go to 'http://127.0.0.1:8000/'
+   
+   4- Use the application
